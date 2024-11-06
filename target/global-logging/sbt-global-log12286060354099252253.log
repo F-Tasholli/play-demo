@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.5 (Ubuntu Java 21.0.4)
+[debug] Load.defaultLoad until apply took 4870.844824ms
+[debug]           Load.loadUnit: plugins took 1814.302419ms
+[debug]           Load.loadUnit: defsScala took 13.815922ms
+[debug] [Loading] Scanning directory /var/lib/jenkins/workspace/example-app/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /var/lib/jenkins/workspace/example-app/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 518.432453 ms
+[debug]               Load.resolveProject(example-app-build) took 1799.116645ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id example-app-build, base: /var/lib/jenkins/workspace/example-app/project, plugins: List(<none>))) took 2776.039794ms
+[debug] [Loading] Done in /var/lib/jenkins/workspace/example-app/project, returning: (example-app-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3447.929315ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.071751ms
+[debug]         Load.loadUnit(file:/var/lib/jenkins/workspace/example-app/project/, ...) took 5502.971716ms
+[debug]       Load.apply: load took 11870.211902ms
+[debug]       Load.apply: resolveProjects took 241.770237ms
+[debug]       Load.apply: finalTransforms took 1865.227631ms
+[debug]       Load.apply: config.delegates took 382.831547ms
+[debug]       Load.apply: Def.make(settings)... took 10691.700122ms
+[debug]       Load.apply: structureIndex took 1319.933372ms
+[debug]       Load.apply: mkStreams took 24.768596ms
+[info] loading project definition from /var/lib/jenkins/workspace/example-app/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 48938.508073ms
+[debug]     Load.loadUnit: defsScala took 0.449165ms
+[debug] [Loading] Scanning directory /var/lib/jenkins/workspace/example-app
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /var/lib/jenkins/workspace/example-app, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.031839 ms
+[debug]         Load.resolveProject(example-app) took 18.633465ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id example-app, base: /var/lib/jenkins/workspace/example-app, plugins: List(<none>))) took 82.355524ms
+[debug] [Loading] Done in /var/lib/jenkins/workspace/example-app, returning: (example-app)
+[debug]     Load.loadUnit: loadedProjectsRaw took 124.223663ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.124169ms
+[debug]   Load.loadUnit(file:/var/lib/jenkins/workspace/example-app/, ...) took 49100.010967ms
+[debug] Load.apply: load took 49751.87928ms
+[debug] Load.apply: resolveProjects took 11.021153ms
+[debug] Load.apply: finalTransforms took 234.87709ms
+[debug] Load.apply: config.delegates took 14.807884ms
+[debug] Load.apply: Def.make(settings)... took 1663.41428ms
+[debug] Load.apply: structureIndex took 743.826505ms
+[debug] Load.apply: mkStreams took 0.090559ms
+[info] set current project to example-app (in build file:/var/lib/jenkins/workspace/example-app/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///var/lib/jenkins/.sbt/1.0/server/3beb8494b2c278325610/sock
+[debug] Writing bsp connection file
+[info] started sbt server
