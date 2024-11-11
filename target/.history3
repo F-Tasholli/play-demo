@@ -1,2 +1,0 @@
-1730823637310:ls -ld /tmp\nsudo chown jenkins:jenkins /tmp\nexit
-1730823648269:exit
